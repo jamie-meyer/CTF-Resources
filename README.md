@@ -1,7 +1,7 @@
 # CTF-Resources
 
 ## Background
-I taught an introductory ethical hacking class that included creating a set of CTF challenges. The following is my own work, but I'll also explain a few challenges we used that are not included here. Feel free to use any and all of the work here, but please credit me. This was easily my favorite part of the semester.
+I TA'd an introductory ethical hacking class that included creating a set of CTF challenges. The following is my own work, but I'll also explain a few challenges we used that are not included here. Feel free to use any and all of the work here, but please credit me. This was easily my favorite part of the semester.
 
 ## Usage
 If you go into the code for create_key.cpp, you'll need to enter a flag. The flag will then be XOR'ed with some random bits to get two strings that, when XOR'ed together, will create the flag. Use this to input into the final.cpp and morse.cpp challenges to avoid attacks looking for strings and other trivial attacks. Final.cpp creates a challenge that requires the solver to solve 1000 simple math challenges, and morse.cpp requires the solver to translate 10 random morse code strings to letters within 10 seconds. Preferably, the solver will create a script to actually answer the problems, but Ghidra is probably faster if you know what you're doing.
